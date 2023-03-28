@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import pathlib
 
 reading_file = pathlib.Path(input("Digite o caminho do arquivo de entrada:\n"))
