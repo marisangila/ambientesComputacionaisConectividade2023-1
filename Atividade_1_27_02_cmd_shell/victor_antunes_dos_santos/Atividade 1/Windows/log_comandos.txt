@@ -1,0 +1,21 @@
+dir
+cd OneDrive
+cd "Área de Trabalho"
+mkdir "sociesc"
+cd sociesc
+mkdir "ACC"
+mkdir "WEB"
+type nul > teste.txt
+echo "este é um arquivo de teste criado pelo terminal" >> teste.txt
+move teste.txt "C:\Users\victo\OneDrive\Área de Trabalho\sociesc\ACC"
+cd ACC
+copy teste.txt "C:\Users\victo\OneDrive\Área de Trabalho\sociesc\WEB"
+cd..
+dir
+cd ACC
+dir *.txt
+del teste.txt
+cd..
+ren WEB desenvolvimento_web
+cd C:\
+doskey /history > "c:\Users\victo\OneDrive\Área de Trabalho\log_comandos.txt"

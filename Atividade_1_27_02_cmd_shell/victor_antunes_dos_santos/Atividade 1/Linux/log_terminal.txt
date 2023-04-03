@@ -1,0 +1,21 @@
+Script started on 2023-04-03 09:47:37-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+]0;denis@denis-VirtualBox: ~[01;32mdenis@denis-VirtualBox[00m:[01;34m~[00m$ mkdir sociesccd ~denis/Desktop/[5Pmkdir sociesccd ~denis/Desktop/
+]0;denis@denis-VirtualBox: ~/Desktop[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop[00m$ cd ~denis/Desktop/[5Pmkdir sociesc
+]0;denis@denis-VirtualBox: ~/Desktop[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop[00m$ cd sociesc/
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ mkdir ACC
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ mkdir ACC[K[K[KWEB
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ mkdir WEB[K[K[K[K[K[K[K[K[Ktouch teste.txt
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ echo "esté[Ke é um arquivo teste [K[K[K[K[K[Kde teste criad o pelo terminal" > teste.txt
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ mv teste.txt acc[K[K[KACC/[K
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ cd a[KACC/
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc/ACC[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc/ACC[00m$ cp tete[K[Kste.txt ~/d[Kd[KD[K[Kdenis/Desktop/sociesc/WEB
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc/ACC[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc/ACC[00m$ cd ..
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ ls
+[0m[01;34mACC[0m  [01;34mWEB[0m
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ rm a[KAcc[K[KCC/teste.txt
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ mv WEB deseno[Kvolvimento [K_web
+]0;denis@denis-VirtualBox: ~/Desktop/sociesc[01;32mdenis@denis-VirtualBox[00m:[01;34m~/Desktop/sociesc[00m$ cd /
+]0;denis@denis-VirtualBox: /[01;32mdenis@denis-VirtualBox[00m:[01;34m/[00m$ exit
+exit
+
+Script done on 2023-04-03 09:50:30-03:00 [COMMAND_EXIT_CODE="0"]
