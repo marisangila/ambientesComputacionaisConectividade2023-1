@@ -1,0 +1,42 @@
+(1) - Algorítmo em Python:
+
+# Solicita o nome do arquivo de leitura
+nome_arquivo_leitura = input("Digite o nome do arquivo que você deseja ler: ")
+
+# Abre o arquivo em modo de leitura
+with open(nome_arquivo_leitura, 'r') as arquivo_leitura:
+    # Lê o conteúdo do arquivo
+    conteudo = arquivo_leitura.read()
+print(conteudo)
+  
+# Solicita o nome do arquivo de escrita
+nome_arquivo_escrita = input("Digite o nome do arquivo em que você deseja escrever: ")
+
+# Abre o arquivo em modo de escrita
+with open(nome_arquivo_escrita, 'w') as arquivo_escrita:
+    # Escreve o conteúdo lido no arquivo de escrita
+    arquivo_escrita.write(conteudo)
+
+print(f"O conteúdo do arquivo {nome_arquivo_leitura} foi copiado para o arquivo {nome_arquivo_escrita}.")
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+(2) - Foram realizadas 53 chamadas read(), 6 chamadas write() e 43 chamadas close().
+As chamadas write são feitas na parte do código fonte onde o algorítmo abre o arquivo em modo de escrita e escreve o conteúdo lido:
+
+# Abre o arquivo em modo de escrita
+with open(nome_arquivo_escrita, 'w') as arquivo_escrita:
+    # Escreve o conteúdo lido no arquivo de escrita
+    arquivo_escrita.write(conteudo)
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+(3) - Foram realizadas apenas 4 chamadas write(), ao invés das 6 anteriormente.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+(4) - Foram realizadas 51 chamadas read(), duas a menos que as 53 anteriormente, pois o programa deixou de ler dois inputs do usuário.
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+(5) - O utilitário realizou diversas chamadas de sistema para ler e escrever em arquivos, incluindo aqueles presentes na biblioteca do Python 3.8, diretórios do sistema, e localização do próprio utilitário. A maioria das chamadas foi para leitura (O_RDONLY), mas também houve chamadas para escrita (O_WRONLY), como no caso em que o utilitário escreveu o texto no arquivo de destino.
