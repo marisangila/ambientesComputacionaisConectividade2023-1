@@ -10,3 +10,12 @@
 9. Elabore um script para coletar e armazenar informações do SO. Resposta: Atividade_2_13_03_shell_script/lucas_calegario/script9.sh
     - Pode ser passado como argumento o nome de usuário. Caso não haja argumento, deve ser atribuído o usuário atual.
     - As informações coletadas devem ser armazenadas em um arquivo txt. O nome deve ter o seguinte formato: <AAAAMMDD>_<HH:MM:SS>_EstadoSistema_<usuário>.txt
+    - As seguintes informações (nesta sequência) devem ser gravadas:
+        - o Número total de processos ativos no sistema.
+        - o Número de processos ativos do usuário.
+        - o Nome do usuário.
+        - o Quantidade de processos sendo executados excluindo-se os do 
+        usuário.
+        - o Quantidade de processos sendo executados como root.
+10. (DESAFIO) Crie um script para ler um arquivo CSV, em seguida exiba os dados 
+de forma organizada na tela. Resposta: Atividade_2_13_03_shell_script/lucas_calegario/script10.sh
