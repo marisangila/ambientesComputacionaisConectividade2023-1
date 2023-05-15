@@ -1,0 +1,5 @@
+Configuração de roteadores, rota estática.
+Definição de IP e mascara de subredes.
+Rede com comutadores.
+Rede como servidor DHCP, DNS e HTTP.
+Configuração de Rede Wifi - SSID - WPA2
